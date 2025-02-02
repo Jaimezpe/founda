@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+body {
+    background-color: #121212;
+    font-family: 'itim';
+    display: flex;
+    justify-content: center;
+}
+
+.barra {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1px;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    color: white;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    flex-wrap: wrap;
+}
+
+.barra-izquierda {
+    display: flex;
+    align-items: center;
+}
+
+.barra-izquierda img {
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.barra-derecha {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 15px;
+    margin-right: 15px;
+}
+
+.barra-derecha a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.barra-derecha a:hover {
+    color: #ffcc00;
+}
+
+main {
+    padding-top: 80px;
+}
+
+@media (max-width: 768px) {
+    .barra {
+        height: auto;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .barra-derecha {
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    .barra-derecha a {
+        margin: 5px 10px;
+    }
+}
+
+.nombrebarra {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.carousel-container {
+    margin-top: 60px;
+}
