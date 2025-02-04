@@ -5,6 +5,7 @@ body {
     font-family: 'itim';
     display: flex;
     justify-content: center;
+    color: white;
 }
 
 .barra {
@@ -84,4 +85,36 @@ main {
 
 .carousel-container {
     margin-top: 60px;
+    height: auto;
+    display: block;
+}
+
+.contacto {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 3px 4px 100px #49494940;
+    max-width: 1500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.contactox {
+    text-decoration: none;
+}
+
+.contactox:hover {
+    transform: scale(1.1);
+}
+
+.izquierdadev {
+    display: flex;
+    justify-content: center;
+}
+
+.centrodev {}
+
+.derechadev {
+    display: flex;
+    justify-content: center;
 }
