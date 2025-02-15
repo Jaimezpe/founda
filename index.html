@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Founda</title>
-    <link rel="icon" href="./img/logo.jpg" type="image/x-icon">
+    <link rel="icon" href="./img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
@@ -13,43 +13,109 @@
 <body>
     <center>
         <div class="barra">
-            <a href="https://jaimezpe.com" style="color: white; text-decoration: none;">
+            <a href="https://founda.jaimezpe.com" style="color: white; text-decoration: none;">
                 <div class="barra-izquierda">
                     <p>‎‎ ‎</p>
-                    <img src="./img/logo.jpg" draggable="false">
+                    <img src="./img/logo.png" draggable="false">
                     <p class="Nombrebarra">Founda</p>
                 </div>
             </a>
 
             <div class="barra-derecha">
-                <a href="#conocimientos">Software</a>
-                <a href="#proyectos">About us</a>
+                <a href="#software">Software</a>
+                <a href="#aboutus">About us</a>
                 <a href="#contacto">Contact‎‎ ‎</a>
             </div>
         </div>
 
         <div class="carousel-container">
-            <img src="./img/banner1.png">
+            <img src="./img/banner1.png" class="imgcarrousel">
         </div>
 
         <p>‎‎ ‎</p>
 
-        <div class="contacto" id="contacto">
-            <div class="izquierdadev">
-                <center>
-                    <img src="./img/github.svg" draggable="false"
-                    style="transform: rotate(15deg); width: 50px;">
-                </center>
-            </div>
-            <div class="centrodev">
-                <h1>Do you want to see how we create?</h1>
-                <h3>Check CEO's github page to see it!</h3>
-            </div>
-            <div class="derechadev"><img src="./img/dev.png" draggable="false"></div>
-
+        <div class="contacto">
+            <a href="https://github.com/jaimezpe/founda" class="botondev">Go there!</a>
         </div>
 
-        <p>‎‎ ‎</p>
+        <p style="font-size: 44px;" id="software">‎‎ ‎</p>
+
+        <div class="software">
+            <center>
+                <div class="titulosoftware" id="software">
+                    <h1 style="font-size: 60px;">Software</h1>
+                    <h3 style="font-size: 30px; margin-top: -30px;">Here is our creations!</h3>
+                </div>
+                <div class="programas">
+                    <div class="soft">
+                        <center>
+                            <img src="./img/optixos.png" draggable="false" style="height: 330px;">
+                            <a href="https://founda.jaimezpe.com/optixos" class="botonsoft">Go there!</a>
+
+                        </center>
+                    </div>
+                    <p style="font-size: 131px;">‎‎ ‎</p>
+                    <p style="font-size: 131px;">‎‎ ‎</p>
+                    <p style="font-size: 131px;">‎‎ ‎</p>
+                    <div class="soft2">
+                        <center>
+                            <img src="./img/fixyourpc.png" draggable="false" style="height: 330px;">
+                            <a href="https://founda.jaimezpe.com/fixyourpc" class="botonsoft">Go there!</a>
+
+                        </center>
+                    </div>
+                    <p style="font-size: 131px;">‎‎ ‎</p>
+                    <p style="font-size: 131px;">‎‎ ‎</p>
+                    <p style="font-size: 131px;">‎‎ ‎</p>
+                    <div class="soft3">
+                        <center>
+                            <img src="./img/tisklast.png" draggable="false" style="height: 330px;">
+                            <a href="https://founda.jaimezpe.com/tisklast" class="botonsoft">Go there!</a>
+
+                        </center>
+                    </div>
+                </div>
+            </center>
+        </div>
+
+        <div id="aboutus"></div>
+
+        <div class="aboutus">
+            <div class="titleaboutus">
+                <h1 style="font-size: 60px;">About us</h1>
+            </div>
+            <div class="aboutuslados">
+
+
+                <div class="aboutusizq">
+                    <p>Founda is a website designed to provide programs and systems that help people improve their
+                        computers without spending any money, as well as tools for customization. Most of the programs
+                        available on Founda are developed by us, except for modifications, which are custom versions of
+                        existing software, and open-source programs that serve as complementary tools. Our goal is to
+                        offer useful and accessible solutions for users who want to enhance their devices or personalize
+                        their experience without extra costs.
+                    </p>
+                </div>
+                <div class="aboutusder">
+                    <img src="./img/logo.png" draggable="false" class="aboutusimg">
+                </div>
+            </div>
+        </div>
+
+        <p style="font-size: 13px;">‎‎ ‎</p>
+
+        <div class="final" id="contacto">
+            <div class="finalizq">
+                <a href="https://founda.vercel.app"><img src="./img/logo.png" draggable="false" class="finalimg"></a>
+                <a href="https://www.tiktok.com/@founda_apps"><img src="./img/tiktok.svg" draggable="false" class="finalimg2"></a>
+                <a href="https://x.com/founda_apps"><img src="./img/x.svg" draggable="false" class="finalimg2"></a>
+                <a href="https://bsky.app/profile/foundaapps.bsky.social"><img src="./img/bluesky.svg" draggable="false" class="finalimg2"></a>
+                <a href="https://www.youtube.com/@founda_apps"><img src="./img/youtube.svg" draggable="false" class="finalimg2"></a>
+            </div>
+            <div class="finalder">
+                <a href="https://jaimezpe.com" style="text-decoration: none; color: white;">🔗 Developer's page</a>
+            </div>
+        </div>
 
     </center>
 </body>
