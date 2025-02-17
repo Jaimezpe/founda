@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+body {
+    background-color: #121212;
+    font-family: 'itim';
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.barra {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1px;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    color: white;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    flex-wrap: wrap;
+}
+
+.barra-izquierda {
+    display: flex;
+    align-items: center;
+}
+
+.barra-izquierda img {
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.barra-derecha {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 15px;
+    margin-right: 15px;
+}
+
+.barra-derecha a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.barra-derecha a:hover {
+    color: #ffcc00;
+}
+
+main {
+    padding-top: 80px;
+}
+
+@media (max-width: 768px) {
+    .barra {
+        height: auto;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .barra-derecha {
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    .barra-derecha a {
+        margin: 5px 10px;
+    }
+}
+
+.nombrebarra {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.carousel-container {
+    margin-top: 60px;
+    height: auto;
+    display: block;
+}
+
+.contacto {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 3px 4px 100px #49494940;
+    max-width: 1500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    background-image: url(./img/dev2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.contactox {
+    text-decoration: none;
+}
+
+.contactox:hover {
+    transform: scale(1.1);
+}
+
+.botondev {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 230px;
+    font-size: 23px;
+}
+
+.programas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.soft {
+    width: 430px;
+    box-shadow: 3px 4px 100px #49494940;
+    height: 330px;
+    border-radius: 20px;
+}
+
+.soft2 {
+    width: 430px;
+    box-shadow: 3px 4px 100px #49494940;
+    height: 330px;
+    border-radius: 20px;
+}
+
+.soft3 {
+    width: 430px;
+    box-shadow: 3px 4px 100px #49494940;
+    height: 330px;
+    border-radius: 20px;
+}
+
+.botonsoft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 23px;
+    position: absolute;
+    margin-top: -67px;
+    margin-left: 138px;
+}
+
+.aboutuslados {
+    display: flex;
+    justify-content: center;
+}
+
+.aboutusizq {
+    width: 650px;
+    text-align: left;
+    font-size: 20px;
+    margin-right: 80px;
+}
+
+.aboutusimg {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+}
+
+.titleaboutus {
+    margin-bottom: -40px;
+}
+
+.titlescreenshot {
+    margin-top: 20px;
+    margin-bottom: -30px;
+}
+
+.screenshot {
+    margin-top: -20px;
+}
+
+.finalimg {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 50px;
+    width: 50px;
+}
+
+.final {
+    background-color: #1C1C1C;
+    height: 100px;
+}
+
+.finalizq {
+    display: flex;
+    justify-content: center;
+}
+
+.finalimg2 {
+width: 31px;
+height: 31px;
+}
+
+.titlevideo {
+    margin-bottom: -30px;
+    margin-top: 20px;
+}
