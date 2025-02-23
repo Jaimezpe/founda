@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 body {
     background-color: #121212;
-    font-family: 'itim';
+    font-family: 'Inter';
     display: flex;
     justify-content: center;
     color: white;
@@ -18,17 +19,18 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 0 1px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(#121212);
     backdrop-filter: blur(10px);
     color: white;
     z-index: 1000;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 5px rgba(68, 68, 68, 0.356);
     flex-wrap: wrap;
 }
 
 .barra-izquierda {
     display: flex;
     align-items: center;
+    margin-left: 250px;
 }
 
 .barra-izquierda img {
@@ -43,7 +45,8 @@ body {
     flex-wrap: wrap;
     justify-content: flex-end;
     gap: 15px;
-    margin-right: 15px;
+    margin-right: 250px;
+    font-family: 'Inter';
 }
 
 .barra-derecha a {
@@ -84,7 +87,7 @@ main {
 }
 
 .carousel-container {
-    margin-top: 60px;
+    margin-top: 140px;
     height: auto;
     display: block;
 }
@@ -200,14 +203,52 @@ main {
 .final {
     background-color: #1C1C1C;
     height: 100px;
+    align-items: center;
 }
 
 .finalizq {
     display: flex;
-    justify-content: center;
 }
 
 .finalimg2 {
-width: 31px;
-height: 31px;
+    width: 31px;
+    height: 31px;
 }
+
+.ourappscarousel {
+    width: 1450px;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    padding: 20px 0;
+}
+
+.ourappscarousel-track {
+    display: flex;
+    gap: 40px;
+    animation: scroll 60s linear infinite;
+    width: max-content; 
+}
+
+.ourappscarousel-track img {
+    height: 50px;
+    filter: brightness(0.8);
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+
+
+}
+
+.carousel-track::after {
+    content: "";
+    display: flex;
+}
+
