@@ -57,7 +57,7 @@ body {
 }
 
 .barra-derecha a:hover {
-    color: #ffcc00;
+    color: #00FFB3;
 }
 
 main {
@@ -110,7 +110,7 @@ main {
 }
 
 .contactox:hover {
-    transform: scale(1.1);
+    transform: scale(1.1);      
 }
 
 .botondev {
@@ -194,26 +194,44 @@ main {
 }
 
 .finalimg {
-    border-radius: 50%;
     object-fit: cover;
-    height: 50px;
-    width: 50px;
+    height: 35px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.finalimg:hover {
+    transform: scale(1.1);
 }
 
 .final {
     background-color: #1C1C1C;
-    height: 100px;
+    height: 110px;
+    width: 1900px;
     align-items: center;
+    display: flex;
+    justify-content: space-between;
 }
 
 .finalizq {
     display: flex;
+    margin-left: 30px;
+    width: 200px;
 }
 
-.finalimg2 {
-    width: 31px;
-    height: 31px;
+.finalder {
+    margin-right: 20px;
+    transition: transform 0.3s ease-in-out;
 }
+
+.finalder:hover {
+    transform: scale(1.1);
+}
+
+.divcentral {
+    width: 200px;
+    margin-left: -90px;
+}
+
 
 .ourappscarousel {
     width: 1450px;
@@ -226,7 +244,7 @@ main {
 .ourappscarousel-track {
     display: flex;
     gap: 40px;
-    animation: scroll 60s linear infinite;
+    animation: scroll 180s linear infinite;
     width: max-content; 
 }
 
