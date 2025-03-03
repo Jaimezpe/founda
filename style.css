@@ -59,7 +59,25 @@ body {
     color: #00FFB3;
 }
 
-main {
+@media (max-width: 900px) {
+    .barra-derecha {
+        display: none;
+    }
+
+    .barra-izquierda {
+        margin-left: 1px;
+    }
+
+    .barra {
+        align-items: center;
+    }
+
+    
+
+}
+
+
+main {  
     padding-top: 80px;
 }
 
@@ -92,16 +110,58 @@ main {
 }
 
 .contacto {
-    padding: 20px;
     border-radius: 8px;
-    box-shadow: 3px 4px 100px #49494940;
-    width: 1500px;
-    height: 300px;
+    box-shadow: 3px 4px 100px #121212;
     display: flex;
     justify-content: center;
     background-image: url(./img/dev2.png);
     background-size: cover;
     background-position: center;
+    max-width: 1400px;
+    height: 300px;
+}
+
+@media (max-width: 1200px) {
+    .contacto {
+        display: none;
+    }
+    .software {
+        margin-top: -100px;
+    }
+    .aboutusimg {
+        display: none;
+    }
+    .aboutusizqtext {
+        text-align: center;
+        font-size: 15px;    
+        width: 470px;
+        margin-left: 150px;
+    }
+    
+    
+}
+
+
+.softimg {
+    height: 330px;
+}
+
+@media (max-width: 900px) {
+    .softimg {
+        height: 250px;
+    }
+    
+}
+
+.foundaisasite {
+    font-size: 20px;
+    width: 500px;
+}
+
+@media (max-width: 768px) {
+    .foundaisasite {
+        display: none;
+    }
 }
 
 .contactox {
@@ -132,23 +192,27 @@ main {
     justify-content: center;
 }
 
+.software {
+    align-items: center;
+}
+
 .soft {
     width: 430px;
-    box-shadow: 3px 4px 100px #49494940;
+    box-shadow: 3px 4px 100px #121212;
     height: 330px;
     border-radius: 20px;
 }
 
 .soft2 {
     width: 430px;
-    box-shadow: 3px 4px 100px #49494940;
+    box-shadow: 3px 4px 100px #121212;
     height: 330px;
     border-radius: 20px;
 }
 
 .soft3 {
     width: 430px;
-    box-shadow: 3px 4px 100px #49494940;
+    box-shadow: 3px 4px 100px #121212;
     height: 330px;
     border-radius: 20px;
 }
@@ -177,6 +241,10 @@ main {
     width: 900px;
 }
 
+.aboutusizqtext2 {
+    display: none;
+}
+
 @media (max-width: 800px) {
     .aboutusder {
         display: none;
@@ -191,12 +259,25 @@ main {
         justify-content: center;
         text-align: center;
     }
+
+    .aboutusizqtext {
+        display: none;
+    }
+
+    .aboutusizqtext2 {
+        display: block;
+        font-size: 15px;
+        text-align: center;
+        width: 300px;
+        margin-left: 240px;
+    }
 }
 
 .aboutusizq {
     width: 700px;
     text-align: left;
-    font-size: clamp(7px, 5vw, 20px);;
+    font-size: clamp(7px, 5vw, 20px);
+    ;
     margin-right: 80px;
 }
 
@@ -225,7 +306,10 @@ main {
 .final {
     background-color: #1C1C1C;
     height: 110px;
-    width: 100vw;
+    width: 1900px;
+    position: relative;
+    left: 0;
+    right: 0;
     align-items: center;
     display: flex;
     justify-content: space-between;
