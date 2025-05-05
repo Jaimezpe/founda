@@ -347,7 +347,7 @@ main {
 .ourappscarousel-track {
     display: flex;
     gap: 40px;
-    animation: scroll 180s linear infinite;
+    animation: scroll 170s linear infinite;
     width: max-content;
 }
 

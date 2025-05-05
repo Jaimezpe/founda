@@ -4,35 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TiskLast | Founda</title>
+    <title>OptiXOS | Founda</title>
     <link rel="icon" href="./img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="\.style.css">
     <script src="script.js"></script>
 </head>
 
 <body>
     <center>
-        <div class="barra">
-            <a href="https://founda.jaimezpe.com" style="color: white; text-decoration: none;">
-                <div class="barra-izquierda">
-                    <p>‎‎ ‎</p>
-                    <img src="./img/logo.png" draggable="false">
-                    <p class="Nombrebarra">Founda</p>
+            <div class="barra">
+                <a href="https://founda.jaimezpe.com" style="color: white; text-decoration: none;">
+                    <div class="barra-izquierda">
+                        <p>‎‎ ‎</p>
+                        <img src="./img/logo.png" draggable="false">
+                        <p class="Nombrebarra">Founda</p>
+                    </div>
+                </a>
+
+                <div class="barra-derecha">
+                    <a href="#conocimientos">Software</a>
+                    <a href="#proyectos">About us</a>
+                    <a href="#contacto">Contact‎‎ ‎</a>
                 </div>
-            </a>
-
-            <div class="barra-derecha">
-                <a href="#conocimientos">Software</a>
-                <a href="#proyectos">About us</a>
-                <a href="#contacto">Contact‎‎ ‎</a>
             </div>
-        </div>
-
-        <div class="carousel-container">
-            <img src="./img/banner1.png" class="imgcarrousel">
-        </div>
-
-
 
         <div class="aboutus">
             <div class="titleaboutus">
@@ -54,18 +49,47 @@
             </div>
         </div>
 
+
+        <div class="howtodlit">
+            <center>
+                <div class="titlehowtodlit">
+                    <h1 style="font-size: 60px;">Download links </h1>
+                </div>
+                <div class="howtodlitlados">
+                    <center>
+
+                        <div class="howtodlitizq">
+                            <p>Download in this link</p>
+                        </div>
+                        <div class="howtodlitder">
+                            <a href="https://mega.nz/file/qZQByayR#MBGaLDuhS1uTsHPuThDorj5JUZUj9sV1J5hEPufdp1M"><img
+                                    src="data:image/png;base64,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"
+                                    draggable="false" class="howtodlitimg"></a>
+                        </div>
+                    </center>
+                </div>
+            </center>
+
+        </div>
+
         <p style="font-size: 13px;">‎‎ ‎</p>
 
-        <div class="final">
+        <div class="final" id="contacto">
             <div class="finalizq">
-                <a href="https://founda.vercel.app"><img src="./img/logo.png" draggable="false" class="finalimg"></a>
-                <a href="https://www.tiktok.com/@founda_apps"><img src="./img/tiktok.svg" draggable="false"
-                        class="finalimg2"></a>
-                <a href="https://x.com/founda_apps"><img src="./img/x.svg" draggable="false" class="finalimg2"></a>
-                <a href="https://bsky.app/profile/foundaapps.bsky.social"><img src="./img/bluesky.svg" draggable="false"
-                        class="finalimg2"></a>
-                <a href="https://www.youtube.com/@founda_apps"><img src="./img/youtube.svg" draggable="false"
-                        class="finalimg2"></a>
+
+            </div>
+            <div class="divcentral">
+                <center>
+                    <p>Follow us and contact us through:</p>
+                    <a href="https://www.tiktok.com/@founda_apps"><img src="./img/tiktok.png" draggable="false"
+                            class="finalimg"></a>
+                    <a href="https://x.com/founda_apps"><img src="./img/x.png" draggable="false" class="finalimg"></a>
+                    <a href="https://bsky.app/profile/foundaapps.bsky.social"><img src="./img/bluesky.png"
+                            draggable="false" class="finalimg"></a>
+                    <a href="https://www.youtube.com/@founda_apps"><img src="./img/youtube.png" draggable="false"
+                            class="finalimg"></a>
+                    <p style="font-size: 6px;">‎‎ ‎</p>
+                </center>
             </div>
             <div class="finalder">
                 <a href="https://jaimezpe.com" style="text-decoration: none; color: white;">🔗 Developer's page</a>

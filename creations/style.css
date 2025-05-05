@@ -131,10 +131,6 @@ main {
     transform: scale(1.1);
 }
 
-.finalimg:hover {
-    transform: scale(1.1);
-}
-
 .final {
     background-color: #1C1C1C;
     height: 110px;
